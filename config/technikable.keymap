@@ -59,16 +59,16 @@
 &kp TAB          &kp Q  &kp W     &kp E     &kp R        &kp T              &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &mt LCTRL ESC    &kp A  &kp S     &kp D     &kp F        &kp G              &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &mt LSHFT GRAVE  &kp Z  &kp X     &kp C     &kp V        &kp B              &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
-                        &kp LALT  &kp LGUI  &lt 1 SPACE         &lt 1 BSPC         &to 1  &mo 3
+                        &kp LALT  &kp LGUI  &lt 1 SPACE         &lt 1 BSPC         &mo 2  &mo 3
             >;
         };
 
         sym_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans         &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp BACKSLASH  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &trans         &trans
-                &trans  &trans  &trans          &trans          &to 0      &trans
+&trans  &trans  &kp EXCL    &kp AT       &kp HASH              &trans                         &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans         &trans
+&trans  &trans  &kp DOLLAR  &kp PERCENT  &kp CARET             &kp RIGHT_PARENTHESIS          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp BACKSLASH  &trans
+&trans  &trans  &kp AMPS    &kp ASTRK    &kp LEFT_PARENTHESIS  &trans                         &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &trans         &trans
+                &trans      &trans       &trans                                       &trans          &trans     &trans
             >;
 
             label = "SYM";
@@ -77,7 +77,7 @@
         num_layer {
             bindings = <
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans          &trans          &trans  &trans
             >;
