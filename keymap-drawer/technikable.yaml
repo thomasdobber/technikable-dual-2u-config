@@ -125,10 +125,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: base, h: toggle, type: held}
+  - {type: held}
   - '0'
-  - ','
-  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   BLT:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

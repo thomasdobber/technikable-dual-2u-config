@@ -650,23 +650,20 @@ text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g data-key="base" transform="translate(280, 196)" class="key held keypos-38">
+<g data-key="" transform="translate(280, 196)" class="key held keypos-38">
 <rect rx="6" ry="6" x="-54" y="-26" width="108" height="52" class="key held"/>
-<a href="#base">
-<text x="0" y="0" class="key held tap layer-activator">base</text>
-</a><text x="0" y="24" class="key held hold">toggle</text>
 </g>
 <g data-key="0" transform="translate(392, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-54" y="-26" width="108" height="52" class="key"/>
 <text x="0" y="0" class="key tap">0</text>
 </g>
-<g data-key="," transform="translate(476, 196)" class="key keypos-40">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">,</text>
+<g data-key="▽" transform="translate(476, 196)" class="key trans keypos-40">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g data-key="." transform="translate(532, 196)" class="key keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">.</text>
+<g data-key="▽" transform="translate(532, 196)" class="key trans keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 </g>
 </g>
