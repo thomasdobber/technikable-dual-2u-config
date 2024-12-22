@@ -40,7 +40,7 @@ layers:
   - LALT
   - LGUI
   - SPACE
-  - {t: RSHFT, h: SYM}
+  - SYM
   - {t: NUM, h: toggle}
   - BLT
   SYM:
@@ -57,10 +57,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHFT, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
