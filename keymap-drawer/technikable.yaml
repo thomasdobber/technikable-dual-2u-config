@@ -39,7 +39,7 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - SPACE
+  - {t: SPACE, h: SYM}
   - SYM
   - {t: NUM, h: toggle}
   - BLT
@@ -82,8 +82,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
