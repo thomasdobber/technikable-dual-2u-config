@@ -39,9 +39,9 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - {t: SPACE, h: base}
   - {t: SPACE, h: SYM}
-  - {t: ▽, type: trans}
+  - {t: BSPC, h: SYM}
+  - {t: SYM, h: toggle}
   - BLT
   SYM:
   - {t: ▽, type: trans}
@@ -82,9 +82,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
-  - {type: held}
+  - {t: '0', type: held}
   - {t: ▽, type: trans}
+  - {t: base, h: toggle}
   - {t: ▽, type: trans}
   BLT:
   - {t: ▽, type: trans}
