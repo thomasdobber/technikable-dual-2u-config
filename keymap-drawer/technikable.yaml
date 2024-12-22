@@ -39,7 +39,7 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - {t: SPACE, h: SYM}
+  - {t: SPACE, h: NUM}
   - SYM
   - {t: NUM, h: toggle}
   - BLT
@@ -82,8 +82,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
@@ -100,10 +100,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHFT, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: base, h: toggle}
+  - {t: base, h: toggle, type: held}
   - '0'
   - ','
   - .
