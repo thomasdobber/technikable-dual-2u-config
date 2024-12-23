@@ -1,56 +1,15 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_2x2u}
 layers:
-  base:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - {t: ESC, h: LCTRL}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - {t: '`', h: LSHFT}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - ENTER
-  - LALT
-  - LGUI
-  - SPACE
-  - SYM
-  - NUM
-  - BLT
+  base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LSHFT, A, S, D, F, G, H, J, K, L, ;, '''', '`', Z, X, C, V, B, N, M, ',', ., /, \, LALT, LGUI, SPACE, SYM, RCTRL,
+    BLT]
   SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
   - '-'
   - UP
   - '='
@@ -58,11 +17,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $
-  - '%'
-  - ^
-  - )
-  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - ENTER
   - LEFT
   - DOWN
   - RIGHT
@@ -70,11 +29,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&'
-  - '*'
-  - (
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&caps_word'
   - \
   - '['
   - ']'
@@ -86,55 +45,12 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   BLT:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -144,14 +60,14 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
-  - BT PRV
   - {t: ▽, type: trans}
-  - BT NXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,10 +92,8 @@ combos:
 - p: [15, 16]
   k: TAB
 - p: [14, 15, 16]
-  k: ESC
+  k: '&caps_word'
 - p: [21, 20, 19]
   k: ENTER
 - p: [20, 19]
   k: BACKSPACE
-- p: [38, 39]
-  k: '&caps_word'
