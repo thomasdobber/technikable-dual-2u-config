@@ -112,7 +112,7 @@
 &kp TAB    &kp Q  &kp W        &kp E        &kp R         &kp T         &kp Y  &kp U         &kp I        &kp O        &kp P     &kp BSPC
 &kp ESC    &kp A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G         &kp H  &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &kp SEMI  &kp DEL
 &kp LSHFT  &kp Z  &kp X        &kp C        &kp V         &kp B         &kp N  &kp M         &kp COMMA    &kp DOT      &kp FSLH  &kp RSHFT
-                  &kp LALT     &kp LGUI     &kp SPACE            &mo 1         &kp RGUI      &kp RCTRL
+                  &kp LALT     &kp LGUI     &lt 1 SPACE          &mo 1         &kp RGUI      &kp RCTRL
             >;
         };
 
